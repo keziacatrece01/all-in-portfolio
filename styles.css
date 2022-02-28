@@ -161,4 +161,15 @@ img {
     height: 700px;
     background: white;
 }
+button{
+    cursor: pointer;
+    border: 1px solid #555;
+    text-align: center;
+    padding: 5px;
+    margin-left: 8px;
+}
+.dark{
+    background-color: #222;
+    color: #b14bac;
+}
 
