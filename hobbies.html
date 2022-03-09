@@ -33,6 +33,23 @@
                     <p class="card-text">I love playing video games to unwind since they don't take much thinking power. I spend most
                         of my time playing Stardew Valley or Sims, when I want to play with my friends we usually turn on Minecraft.</p>
                   </div>
+                  <p>Click the button to display a confirm box.</p>
+
+<button onclick="myFunction()">Click if you like videogames</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  let text;
+  if (confirm("Press a button!") == true) {
+    text = "Cool you like video games!";
+  } else {
+    text = "You canceled!";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
                 </div>
                 <div class="card">
                     <img src="donald.jpeg" class="card-img-top" alt="...">
